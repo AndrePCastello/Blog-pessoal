@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 679px) and (max-width:2300px) {
+    header{
+        display: block;
+        margin: auto;
+        width: 720px;
+    }
+    #im{
+        display: block;
+        text-align: left;
+        margin-left: 100px;
+    } 
+
+    #about{
+        display: flex;
+        position: relative;
+        left: 200px;
+        bottom: 60px;
+    }
+    main{
+        display: block;
+        margin: auto;
+        width: 720px;
+    }
+}
