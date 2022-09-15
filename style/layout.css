@@ -39,11 +39,9 @@ h3{
 #about > h3 > a:hover{  text-decoration: underline;}
 main{
     border-bottom: 1px solid rgba(70, 68, 68, 0.336) ;
-
-}
-main{
     line-height: 1.5em;
 }
+
 main > h1{
     display: block;
     text-align: left; 
@@ -52,7 +50,7 @@ main > h1{
     margin-bottom: 20px;
     font-size: 30px;
 }
-main > h2,h4{
+main > h2, h4{
     display: block;
     text-align: left; 
     margin-left: 10px;
