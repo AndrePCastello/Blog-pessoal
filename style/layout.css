@@ -47,30 +47,38 @@ main{
 main > h1{
     display: block;
     text-align: left; 
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 30px;
     line-height: 1em;
 }
+
 main > h2, h4{
     display: block;
     text-align: left; 
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 25px;
 }
+
 main > h3{
     display: block;
     text-align: left; 
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 25px;
 }
+
+main img{
+    width: 300px;
+    margin: 10px 20px;
+}
+
 p{
-    margin-left: 10px;
+    margin-left: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
 }
@@ -78,7 +86,7 @@ p{
 #notícias > h1{
     display: block;
     text-align: left; 
-    margin-left: 10px;
+    margin-left: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 30px;

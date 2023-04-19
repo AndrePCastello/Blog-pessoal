@@ -6,6 +6,7 @@
         margin: auto;
         width: 720px;
     }
+
     #im{
         display: block;
         text-align: left;
@@ -18,9 +19,15 @@
         left: 200px;
         bottom: 60px;
     }
+
     main{
         display: block;
         margin: auto;
         width: 720px;
+    }
+
+    main img{
+    width: 600px;
+    margin: 10px 20px;
     }
 }
