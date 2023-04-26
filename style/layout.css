@@ -1,11 +1,12 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Abyssinica+SIL&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Libre+Franklin:wght@200;300&family=Titillium+Web:wght@300;400;600&display=swap');
 
 
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Abyssinica SIL', 'lato', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 18px;
 }
 
@@ -17,11 +18,13 @@ header{
     margin-top: 40px;
     border-bottom: 1px solid rgba(70, 68, 68, 0.336);
 }
+
 #im > h1{  margin-top: 40px;}
 #im > h3{  margin-top: 10px;}
+
 h1{
     font-size: 30px;
-    font-weight: 300;
+    font-weight: 200;
 }
 h3{
     font-weight: 300;
@@ -61,6 +64,7 @@ main > h2, h4{
     margin-top: 50px;
     margin-bottom: 20px;
     font-size: 25px;
+    font-weight: 200;
 }
 
 main > h3{
@@ -69,7 +73,7 @@ main > h3{
     margin-left: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
-    font-size: 25px;
+    font-size: 23px;
 }
 
 main img{
@@ -81,13 +85,14 @@ p{
     margin-left: 20px;
     margin-bottom: 20px;
     margin-right: 20px;
+    font-weight: 100;
 }
 
 #notícias > h1{
     display: block;
     text-align: left; 
     margin-left: 20px;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 20px;
     font-size: 30px;
     line-height: 1.3em;
@@ -95,7 +100,6 @@ p{
 p > a{
     display: block;
     margin-top: 10px;
-    margin-bottom: 80px;
     text-decoration: none;
     color: #4183C4;
 }
@@ -116,4 +120,17 @@ footer > a > img{
     width: 32px;
     padding: 10px;
 
+}
+
+.infos{
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.infos i{
+    position: relative;
+    top: 10px;
+    padding-left: 230px;
+    font-size: 15px;
+    font-weight: 300;
 }
