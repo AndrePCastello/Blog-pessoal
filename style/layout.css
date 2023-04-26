@@ -53,7 +53,7 @@ main > h1{
     margin-left: 20px;
     margin-top: 50px;
     margin-bottom: 20px;
-    font-size: 30px;
+    font-size: 25px;
     line-height: 1em;
 }
 
@@ -130,7 +130,7 @@ footer > a > img{
 .infos i{
     position: relative;
     top: 10px;
-    padding-left: 230px;
+    padding-left: 200px;
     font-size: 15px;
     font-weight: 300;
 }
