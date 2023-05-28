@@ -76,8 +76,12 @@ main > h3{
     font-size: 23px;
 }
 
+#destaque{
+    width: 450px;
+    margin: 10px 13px;
+}
 main img{
-    width: 300px;
+    width: 400px;
     margin: 10px 20px;
 }
 

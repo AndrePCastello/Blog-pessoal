@@ -26,9 +26,14 @@
         width: 720px;
     }
 
+    #destaque{
+        width: 700px;
+        margin: 10px 20px;
+    }
+
     main img{
-    width: 600px;
-    margin: 10px 20px;
+        width: 600px;
+        margin: 10px 20px;
     }
 
     .infos i{
